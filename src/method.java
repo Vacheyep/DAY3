@@ -2,12 +2,10 @@ import java.util.Scanner;
 
 public class method {
     public static void main(String[] args) {
-/*
+
        Scanner sc = new Scanner(System.in);
         double r = sc.nextByte();
-        area(r);
- */
-
+        convert(r);
     }
 
     // ex1
@@ -26,9 +24,6 @@ public class method {
     }
 
     //ex2
-
-
-
     public static void casting(double c) {
         Scanner sc = new Scanner(System.in);
         double a = sc.nextByte();
@@ -87,11 +82,13 @@ public class method {
         System.out.print(char3);
         System.out.println(year);
     }
+
     //ex7
     public static void charcast(String[] args) {
         char ch = 's';
         int a = (int) ch;
     }
+
     //ex8
     public static double average() {
         char char1 = 'A';
@@ -99,18 +96,22 @@ public class method {
         char char3 = 'a';
 
         double avg = (char1 + char2 + char3) / 3d;
+        System.out.println(avg);
         return avg;
     }
+
     //ex10
     public static void Define(String[] args) {
         String st1 = "abc";
         String st2 = "def";
         String res = st1 + st2;
     }
+
     //ex11
     public static void concatente(String[] args) {
 
     }
+
     //ex12
     public static void print() {
 
